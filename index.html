@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LISTE DE COURSES POUR UNE BONNE RACLETTE</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="liste_viande.js"></script>
+    <script src="liste_fromages.js"></script>
+    <link href="main.css" rel="stylesheet">
+</head>
+
+<body>
+    <h1> LISTE DES COURSES POUR LA RACLETTE</h1>  
+
+    <div id="container">
+
+        
+        <div id="viandes">
+            <h3>LES VIANDES</h3>
+            <br>
+
+        <ul>
+            <div class="getViandes">
+                <li>
+                <h4>Afficher toutes les viandes</h4>
+                <button id="getAllViandes">Cliquer pour afficher </button>
+                </li>
+            </div>
+            <br>
+
+            <div class="addViandes">
+                <li>
+                    <h4>Ajouter une viandes</h4>
+                    <label for="name">Nom de la viande</label>
+                    <input type="text" id="name-viandes" placeholder="nom de la viande"/>
+                    <button id="add-viandes-button">Cliquer pour ajouter</button>
+                </li>
+            </div>
+            <br>
+
+            <div class="GetViandesByID">
+                <li>
+                    <h4>Trouver une viande</h4>
+                    <label for="id">ID de la viande</label>
+                    <input type="text" id="id-viandes" placeholder="ID de la viande"/>
+                    <button id="get-viandes-by-id-button">Cliquer pour afficher </button>
+                </li>
+            </div>
+            <br>
+
+            <div class="updateViandes">
+                <li>
+                    <h4>Modifier une viande</h4>
+                    <label for="name">Nom de la viande</label>
+                    <input type="text" id="new-name-viandes" placeholder="Nouveau nom"/>
+                    <br>
+                    <label for="id">ID de la viande</label>
+                    <input type="text" id="new-id-viandes" placeholder="Nouvel ID"/>
+                    <button id="update-viandes-button">Cliquer pour modifier</button>
+                </li>
+            </div>
+            <br>
+
+            <div class="deleteViandes">
+               <li>
+                    <h4>Supprimer une viande</h4>
+                    <label for="id">ID de la viande</label>
+                    <input type="text" id="id-delete-viandes" placeholder="Nouvel ID"/>
+                    <button id="delete-viandes-by-id-button">Cliquer pour supprimer </button>
+               </li>
+            </div>
+
+        </ul>
+        </div>
+
+
+
+        <div id="fromages">
+            <h3>LES FROMAGES</h3>
+            <br>
+            
+        <ul>
+            <li>
+            <div>
+               <h4>Afficher tous les fromages</h4>
+                <button id="getAllFromages">Cliquer pour afficher</button>
+            </div>
+            </li>
+            <br>
+
+            <div>
+                <li>
+                    <h4>Ajouter un fromage</h4>
+                    <label for="name">Nom du fromage</label>
+                    <input type="text" id="name-fromages" placeholder="nom du fromage"/>
+                    <button id="add-fromages-button">Cliquer pour ajouter</button>
+                </li>    
+            </div>
+            <br>
+
+            <div>
+               <li>
+                    <h4>Trouver un fromage</h4>
+                    <label for="id">ID du fromage</label>
+                    <input type="text" id="id-fromages" placeholder="ID du fromage"/>
+                    <button id="get-fromages-by-id-button">Cliquer pour afficher</button>
+               </li>
+            </div>
+            <br>
+
+
+            <div>
+               <li>
+                    <h4>Modifier un fromage</h4>
+                    <label for="name">Nom du fromage</label>
+                    <input type="text" id="new-name-fromages" placeholder="Nouveau nom"/>
+                    <br>
+                    <label for="id">ID du fromage</label>
+                    <input type="text" id="new-id-fromages" placeholder="nouvel ID"/>
+                    <button id="update-fromages-button">Cliquer pour modifier</button>
+                </li>
+            </div>
+            <br>
+
+
+            <div>
+               <li>
+                    <h4>Supprimer un fromage</h4>
+                    <label for="id">ID du fromage</label>
+                    <input type="text" id="id-delete-fromages" placeholder="ID du fromage"/>
+                    <button id="delete-fromages-by-id-button">Cliquer pour supprimer </button>
+                </li>
+            </div>
+        </ul>
+        </div>
+
+
+    </div>
+    
+
+</body>
+
+</html>

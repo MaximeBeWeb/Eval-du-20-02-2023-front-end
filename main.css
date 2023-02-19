@@ -1,0 +1,67 @@
+body{
+    background-color: #FFD5AF;
+}
+
+h1{
+    border: solid black 2px;
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    background-color: #E59A59;
+    color: #712E1E;
+    
+}
+h3{
+    text-align: center;
+font-style: italic;
+}
+h4{
+    text-decoration:underline;
+}
+
+
+#container{
+}
+
+#viandes{
+    float:left;
+    width: 35%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-left: 10%;
+    background-color: #E59A59;
+}
+
+#fromages{
+    float: right;
+    width: 35%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-right: 10%;
+    background-color: #E59A59;
+}
+
+input{
+    display: block;
+    width: 110px;
+}
+
+
+button{
+    display: block;
+    position: relative;
+    left:150px;
+    width: 150px;
+}
+button:hover{
+    background-color:#777;
+}
+
+
+ul{
+    /* display: flex; */
+    /* flex-wrap: wrap; */
+}
+li{
+    border: 2px dotted black;
+}
